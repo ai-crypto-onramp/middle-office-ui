@@ -18,7 +18,7 @@ component library.
 - [ ] Add TanStack Router for file-based routing.
 - [ ] Configure CI: lint, typecheck, build, test (Vitest).
 - [ ] Add Dockerfile (multi-stage build, nginx serving).
-- [ ] Add codecov.yml and coverage reporting.
+- [x] Codecov badge and reporting wired.
 - [ ] Set up environment variable management (.env.example).
 
 **Acceptance criteria:**
@@ -142,7 +142,7 @@ component library.
 
 ## Stage 9 — E2E Tests & Deployment
 
-**Goal:** Test coverage and deployment pipeline.
+**Goal:** Tests and deployment pipeline.
 
 **Tasks:**
 - [ ] Playwright E2E tests for critical review workflows.
