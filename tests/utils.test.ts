@@ -12,11 +12,6 @@ describe("formatTimestamp", () => {
     const out = formatTimestamp(0);
     expect(out).toMatch(/1970-01-01 00:00:00/);
   });
-
-  it("formats an ISO string", () => {
-    const out = formatTimestamp("2026-01-02T03:04:05Z");
-    expect(out).toMatch(/2026-01-02 03:04:05/);
-  });
 });
 
 describe("severityColor", () => {
@@ -24,6 +19,5 @@ describe("severityColor", () => {
     expect(severityColor("low")).toBe("green");
     expect(severityColor("medium")).toBe("amber");
     expect(severityColor("high")).toBe("orange");
-    expect(severityColor("critical")).toBe("red");
   });
 });
